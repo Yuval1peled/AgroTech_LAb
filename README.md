@@ -4,15 +4,14 @@ This is a summary of the project we have chosen to do as part of this lab.
 We were asked to come up with an irrigation system comprised of three main parts. Each one is more elaborated than the last: the first will water its plant - based on time, the second will include a sensor that will read the moisture levels in its soil and water it accordingly. Lastly, the third part of our system will weigh the plant and its soil and will water it deducting the plant's added weight.
 Our whole system is built and run through Arduino esp32 board.
 Complete project code, partial codes for individual parts and full project descripation is included in the attached files.
-/n
-/n
 
 
-## We will build a few kinds of irrigation control systems./n 
-   A fixed amount of water is given in fixed time intervals./n 
+
+## We will build a few kinds of irrigation control systems.
+   A fixed amount of water is given in fixed time intervals. \n
 For this part of our system, we’ve used the following equipment and tutorials: /n 
-•	1528-2003-ND Valve /n 
-•	4 channel Arduino Relay /n 
+*	1528-2003-ND Valve /n 
+*	4 channel Arduino Relay /n 
 •	https://media.digikey.com/pdf/Data%20Sheets/Adafruit%20PDFs/997_Web.pdf /n 
 •	https://randomnerdtutorials.com/esp32-relay-module-ac-web-server/ /n 
 •	Code File (included in the Github) To connect to a clock /n 
