@@ -1,5 +1,8 @@
 # AgroTech_LAb
-Liron Grosman & Yuval Peled
+###Liron Grosman & Yuval Peled
+
+
+
 This is a summary of the project we have chosen to do as part of this lab. 
 We were asked to come up with an irrigation system comprised of three main parts. Each one is more elaborated than the last: the first will water its plant - based on time, the second will include a sensor that will read the moisture levels in its soil and water it accordingly. Lastly, the third part of our system will weigh the plant and its soil and will water it deducting the plant's added weight.
 Our whole system is built and run through Arduino esp32 board.
@@ -8,32 +11,32 @@ Complete project code, partial codes for individual parts and full project descr
 
 
 ## We will build a few kinds of irrigation control systems.
-   A fixed amount of water is given in fixed time intervals. \n
-For this part of our system, we’ve used the following equipment and tutorials:\n 
-*	1528-2003-ND Valve \n
-*	4 channel Arduino Relay \n
-*	https://media.digikey.com/pdf/Data%20Sheets/Adafruit%20PDFs/997_Web.pdf \n 
-*	https://randomnerdtutorials.com/esp32-relay-module-ac-web-server/ \n 
-*	Code File (included in the Github) To connect to a clock \n
+   A fixed amount of water is given in fixed time intervals. 
+For this part of our system, we’ve used the following equipment and tutorials:
+*	1528-2003-ND Valve 
+*	4 channel Arduino Relay
+*	https://media.digikey.com/pdf/Data%20Sheets/Adafruit%20PDFs/997_Web.pdf 
+*	https://randomnerdtutorials.com/esp32-relay-module-ac-web-server/  
+*	Code File (included in the Github) To connect to a clock 
 
 
 ## Irrigation is actuated by a soil moisture sensor. Whenever soil moisture goes below a pre-determined threshold, irrigation faucet is opened. 
-For this part of our system, we’ve used the following equipment and tutorials:\n
-*	1528-2003-ND Valve \n
-*	4 channel Arduino Relay \n
-*	PM-WCS-3 Sensor \n
-*	https://randomnerdtutorials.com/esp32-i2c-communication-arduino-ide/#1 \n
-*	https://github.com/tinovi/i2cArduino \n
-*	https://tinovi.com/wp-content/uploads/2019/03/PM-WCS-3-I2C.pdf \n
+For this part of our system, we’ve used the following equipment and tutorials:
+*	1528-2003-ND Valve 
+*	4 channel Arduino Relay 
+*	PM-WCS-3 Sensor 
+*	https://randomnerdtutorials.com/esp32-i2c-communication-arduino-ide/#1 
+*	https://github.com/tinovi/i2cArduino 
+*	https://tinovi.com/wp-content/uploads/2019/03/PM-WCS-3-I2C.pdf 
 
 
 ## Irrigation is actuated by the weight of the pot where the plant grows in. When the weight goes down, it means that water evaporated, and irrigation water is needed to replenish what was lost. 
-For this part of our system, we’ve used the following equipment and tutorials: \n
-*	1528-2003-ND Valve \n
-*	4 channel Arduino Relay \n
-*	HX711-Balance-Module-With-Load-Cell \n
-*	https://www.instructables.com/How-to-Interface-HX711-Balance-Module-With-Load-Ce/ \n
-*	And help from our classmates \n
+For this part of our system, we’ve used the following equipment and tutorials: 
+*	1528-2003-ND Valve 
+*	4 channel Arduino Relay 
+*	HX711-Balance-Module-With-Load-Cell 
+*	https://www.instructables.com/How-to-Interface-HX711-Balance-Module-With-Load-Ce/ 
+*	And help from our classmates 
 
 
 ### On top of this we also connected our project to a private ThingSpeak server (code included in the Github). This allows us to monitor our reading from afar.
