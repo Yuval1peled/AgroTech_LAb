@@ -1,7 +1,7 @@
 # AgroTech_LAb
 ### Liron Grosman & Yuval Peled
 
-!(https://github.com/Yuval1peled/AgroTech_LAb/blob/da8e60beca5381bcce0f67e54cd3444c6d6ce059/WhatsApp%20Image%202021-07-20%20at%2008.55.09.jpeg)
+![https://github.com/Yuval1peled/AgroTech_LAb/blob/da8e60beca5381bcce0f67e54cd3444c6d6ce059/WhatsApp%20Image%202021-07-20%20at%2008.55.09.jpeg]
 
 This is a summary of the project we have chosen to do as part of this lab. 
 We were asked to come up with an irrigation system comprised of three main parts. Each one is more elaborated than the last: the first will water its plant - based on time, the second will include a sensor that will read the moisture levels in its soil and water it accordingly. Lastly, the third part of our system will weigh the plant and its soil and will water it deducting the plant's added weight.
