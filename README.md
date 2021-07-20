@@ -1,7 +1,7 @@
-![WhatsApp Image 2021-07-20 at 08 55 09](https://user-images.githubusercontent.com/81626067/126270377-5971ea56-3db7-4403-9472-26bc5154443f.jpeg)
 # AgroTech_LAb
 ### Liron Grosman & Yuval Peled
 
+![WhatsApp Image 2021-07-20 at 08 55 09](https://user-images.githubusercontent.com/81626067/126270377-5971ea56-3db7-4403-9472-26bc5154443f.jpeg)
 
 
 This is a summary of the project we have chosen to do as part of this lab. 
