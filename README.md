@@ -1,7 +1,7 @@
 # AgroTech_LAb
 Liron Grossmann & Yuval Peled
 
-This is a summary of the project we have chosen to do as part of this lab. We were asked to come up with an irrigation system comprised of three main parts. Each one is more elaborated than the last: the first will water its plant - based on time, the second will include a sensor that will read the moisture levels in its soil and water it accordingly. Lastly, the third part of our system will weigh the plant and its soil and will water it deducting the plant's added weight. Our whole system is built and run through Arduino esp32 board. Complete project code, partial codes for individual parts and full project descripation is included in the attached files.
+This is a summary of the project we have chosen to do as part of this lab. We were asked to come up with an irrigation system comprised of three main parts. Each one is more elaborate than the last: the first will water its plant based on time, the second will include a sensor that will read the moisture levels in its soil and water it accordingly. Lastly, the third part of our system will weigh the plant and its soil and will water it deducting the plant's added weight.
 Our whole system is built and run through Arduino esp32 board.
 Complete project code, partial codes for individual parts and full project descripation is included in the attached files.
 
@@ -39,7 +39,7 @@ For this part of our system, we've used the following equipment and tutorials:
 ### On top of this, we also connected our project to a private ThingSpeak server (code included in the Github). This allows us to monitor our reading from afar.
 
 ## Our modifications:
-In order to operate our three valves, we needed more than one external power source, as the eps won't run that much current through it. We connected our valves and relay to said external power supply, but each power supply outlet was strong enough to hold two valves. So, in the end, we only used two power supplies for our three valves.
+In order to operate our three valves, we needed more than one external power source, as the EPS won't run that much current through it. We connected our valves and relay to said external power supply, but each power supply outlet was strong enough to hold two valves. So, in the end, we only used two power supplies for our three valves.
 
 
 Because we use a free ThingSpeak account, it can only take in readings every 15 seconds, but we wanted our systems to be more accurate than that. In order to solve that, we made our system run in a loop that will constantly read the data from our sensors but will send the collected data to the server every 15 seconds.
