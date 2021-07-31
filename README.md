@@ -10,6 +10,8 @@ We were asked to come up with an irrigation system comprised of three main parts
 
 For the two of us, who do not major in soil and water science major or plant science, this project was very hard as we do not have preliminary knowledge that might help us understand how the type of system is supposed to build work. Nevertheless, we dived head deep into the development of our project.
 
+## The Development:
+
 To start, we have built our three-valve system (description provided in the following folder) that was connected to our relay module that would eventually help us control each valve separately. As we went along, we learned basic skills like soldering wires and components together and immensely enjoyed the process. With these parts and our new skills, we started working on our basic code, which we later modified and expanded upon to accommodate the rest of our systems' parts.
 
 ![WhatsApp Image 2021-07-31 at 11 47 46](https://user-images.githubusercontent.com/81626067/127742469-0379a053-66fd-45d5-a72d-26d289c01f92.jpeg)
